@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Avvillas | Checklist </title>
+</head>
+<body>
+    <header class="bg-light shadow">
+        <nav class="navbar navbar-light bg-light container">
+            <a class="navbar-brand" href="#">Avvillas Checklist</a>
+          </nav>
+    </header>
+    <br><br>
+    <section class="container">
+        <div class="text-white text-center rounded-lg p-3" style="background: #4178BE;">
+            <label class="h3 title"> Datos de Usuario</label>
+        </div>
+        <div class="row m-4 text-center">
+            <div class="col-md-6">
+                <label class="font-weight-bold">Numero Servicio: </label>
+                <input type="text" name="" id="Servicio">
+            </div>
+            <div class="col-md-6">
+                <label class="font-weight-bold">Fecha: </label>
+                <input type="date" name="" id="Servicio">
+            </div>
+        </div>
+        <hr>
+        <div class="row mb-5 text-center">
+            <div class="col-md-6 col-lg-3">
+                <label class="font-weight-bold">Nombre Usuario: </label>
+                <input type="text" name="" id="Servicio">
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <label class="font-weight-bold">Cedula: </label>
+                <input type="text" name="" id="Servicio">
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <label class="font-weight-bold">Ciudad: </label>
+                <input type="text" name="" id="Servicio">
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <label class="font-weight-bold">Departamento / Division: </label>
+                <input type="text" name="" id="Servicio">
+            </div>
+        </div>
+        <div class="row mb-5 text-center">
+            <div class="col-md-4">
+                <label class="font-weight-bold">Nombre Equipo: </label>
+                <input type="text" name="" id="Servicio">
+            </div>
+            <div class="col-md-4">
+                <label class="font-weight-bold">Ip equipo: </label>
+                <input type="text" name="" id="Servicio">
+            </div>
+            <div class="col-md-4">
+                <label class="font-weight-bold">Ubicacion: </label>
+                <input type="text" name="" id="Servicio">
+            </div>
+        </div>
+    </section>
+    <section class="container mb-3">
+        <div class="text-white text-center rounded-lg p-2" style="background: #4178BE;">
+            <label class="h3 title"> Revision Detallada </label>
+            <p>Verificación de Hardware y Software por Instalación</p>
+        </div>
+        <div class="options">
+            <div class="d-flex justify-content-center">
+                <div class="m-3">
+                    <label for="" class="h5">Formateo </label>
+                    <select name="select" id="">
+                        <option selected>Seleccionar</option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="m-3">
+                    <label for="" class="h5">Cambio de Equipo </label>
+                    <select name="select" id="changes">
+                        <option selected>Seleccionar</option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="current-box">
+            <h2 class="text-center m-3">Equipo Queda</h2>
+            <div class="row m-3 text-center">
+                <div class="col-md-6 col-lg-3">
+                    <label class="font-weight-bold">Serial: </label>
+                    <input type="text" name="" id="Servicio">
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <label class="font-weight-bold">Placa: </label>
+                    <input type="text" name="" id="Servicio">
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <label class="font-weight-bold">Modelo: </label>
+                    <input type="text" name="" id="Servicio">
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <label class="font-weight-bold">Red y/o Wifi: </label>
+                    <input type="text" name="" id="Servicio">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="old-box">
+            <h2 class="text-center m-3">Equipo Retira: </h2>
+            <div class="row m-3 text-center">
+                <div class="col-md-6 col-lg-3">
+                    <label class="font-weight-bold">Serial: </label>
+                    <input type="text" name="" id="Servicio">
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <label class="font-weight-bold">Placa: </label>
+                    <input type="text" name="" id="Servicio">
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <label class="font-weight-bold">Modelo: </label>
+                    <input type="text" name="" id="Servicio">
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <label class="font-weight-bold">Red y/o Wifi: </label>
+                    <input disabled type="text" name="" id="Servicio">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+input{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    font-size: 14px;
+
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.old-box{
+    display: none;
+}
